@@ -49,7 +49,7 @@ combined_prompt = f"Use file: data_export.xlsx\n{refined_prompt}"
 
 user_message = Content(role="user", parts=[Part(text=combined_prompt)])
 ```
-6. Run the agent
+6. *Run the agent*
 ```
 for event in runner.run(user_id=user_id, session_id=session.id, new_message=user_message):
     if event.is_final_response():
