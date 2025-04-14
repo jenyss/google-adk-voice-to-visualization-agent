@@ -25,3 +25,14 @@ To run the agent, follow these steps:
 OPENAI_API_KEY=your_openai_key
 GOOGLE_API_KEY=your_google_key
 ```
+3. *Setup the session and runner*:
+
+```
+session_service = InMemorySessionService()
+app_name = "viz_app"
+user_id = "jeny"
+session_id = "session_viz_001"
+session = session_service.create_session(app_name=app_name, user_id=user_id, session_id=session_id)
+
+runner = Runner(agent=root_agent, app_name=app_name, session_service=session_service)
+```
