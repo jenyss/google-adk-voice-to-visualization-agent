@@ -37,4 +37,15 @@ session = session_service.create_session(app_name=app_name, user_id=user_id, ses
 runner = Runner(agent=root_agent, app_name=app_name, session_service=session_service)
 ```
 4. *Record a question towards your data*
-```record_on_enter("question.wav")```
+```
+record_on_enter("question.wav")
+```
+5. *Transcribe & refine the question into a proper data query*
+```
+transcribed_text = transcribe_audio("question.wav")
+refined_prompt = refine_prompt(transcribed_text)
+
+combined_prompt = f"Use file: data_export.xlsx\n{refined_prompt}"
+
+user_message = Content(role="user", parts=[Part(text=combined_prompt)])
+```
