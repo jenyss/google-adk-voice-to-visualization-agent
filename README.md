@@ -58,3 +58,18 @@ for event in runner.run(user_id=user_id, session_id=session.id, new_message=user
         else:
             print("No final text response was returned by the agent.")
 ```
+7. *Choose your LLM*
+```
+llm = LiteLlm(model="openai/gpt-4o", temperature=0.0)
+```
+8. *Agent set-up*
+```
+root_agent = Agent(
+    name="voice_viz_agent",
+    model=llm,
+    description="Agent to create data visualizations from spoken queries.",
+    instruction="(full ReAct-style instructions + tool usage strategy here)",
+    tools=[preview_excel_structure, complex_duckdb_query, create_visualization],
+    output_key="last_agent_response",
+)
+```
