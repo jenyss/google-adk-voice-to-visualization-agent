@@ -36,3 +36,5 @@ session = session_service.create_session(app_name=app_name, user_id=user_id, ses
 
 runner = Runner(agent=root_agent, app_name=app_name, session_service=session_service)
 ```
+4. *Record a question towards your data*
+```record_on_enter("question.wav")```
