@@ -18,3 +18,10 @@ If you have any questions or would like to collaborate, feel free to reach out t
 
 ## How-To
 To run the agent, follow these steps: 
+
+1. *Install dependencies* (at the top of the Notebook)
+2. *Add your API keys* to a ```.env``` file:
+```
+OPENAI_API_KEY=your_openai_key
+GOOGLE_API_KEY=your_google_key
+```
