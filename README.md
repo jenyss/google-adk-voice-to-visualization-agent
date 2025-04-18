@@ -60,7 +60,7 @@ for event in runner.run(user_id=user_id, session_id=session.id, new_message=user
 ```
 7. *Choose your LLM*
 ```
-llm = LiteLlm(model="openai/gpt-4o", temperature=0.0)
+llm = LiteLlm(model="openai/gpt-4o", temperature=0.0 )
 ```
 8. *Agent set-up*
 ```
