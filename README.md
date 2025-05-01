@@ -4,7 +4,7 @@ This project is a voice-powered AI agent built with Google ADK. You just say wha
 
 It’s a fun way to explore your data without typing a single line! Talking is faster than writing, and LLMs are better at interpreting our ramblings than we are at organizing them into structured text, especially when those ramblings require specialized skills, like crafting the perfect prompt to generate correct SQL from a data question.
 
-**YouTube Video** [YouTube Video: AI Voice Agent for Excel: Instantly Create Visualizations by Talking (Google ADK 2025)](https://www.youtube.com/watch?v=IRqqnE_v7N0)
+**YouTube Video:** [YouTube Video: AI Voice Agent for Excel: Instantly Create Visualizations by Talking (Google ADK 2025)](https://www.youtube.com/watch?v=IRqqnE_v7N0)
 
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
