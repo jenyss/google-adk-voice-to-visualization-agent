@@ -6,6 +6,8 @@ It’s a fun way to explore your data without typing a single line! Talking is f
 
 ▶️ **YouTube Video:** [YouTube Video: AI Voice Agent for Excel: Instantly Create Visualizations by Talking (Google ADK 2025)](https://www.youtube.com/watch?v=IRqqnE_v7N0)
 
+[![Watch on YouTube: AI Voice Agent for Excel](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube&style=for-the-badge)](https://www.youtube.com/watch?v=IRqqnE_v7N0) 
+
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
 ## How It Works
